@@ -1,0 +1,34 @@
+.grid-container {
+    margin:0 auto;
+    width: 1027px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+  }
+  
+  .menu {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+ 
+  .banner {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+  }
+ 
+  .commando {
+    grid-column: 1 / span 2;
+    grid-row: 3 / 5;
+  }
+ 
+  .max-verstappen {
+    grid-row: 3 / 5;
+  }
+ 
+  .net-binnen {
+    grid-row: 3 / 6;
+  }
+ 
+  .griepvaccin {
+    grid-row: 5 / 6;
+  }
